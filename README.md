@@ -1,4 +1,4 @@
-# 🌐 UniTrends: Analyzing US F1 VISA Chat Trends with Data Engineering! 🎓
+# 🌐 UniTrends: Analyzing US F1 VISA Trends with Data Engineering! 🎓
 This project revolves around analyzing chats from the "US F1 VISA experiences" group on Telegram to derive insights on universities' demand and acceptance rates. The primary motivation is to aid content creation for a YouTube channel focused on the same topic. The project not only achieved its primary goal of generating actionable insights but also served as a hands-on exploration of data engineering.
 
 ### Installation & Setup

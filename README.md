@@ -69,28 +69,26 @@ This project revolves around analyzing chats from the "US F1 VISA experiences" g
    cd kafka_2.12-3.3.1
    bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092}
    ```
-   
-   ### Usage
-   1. **Data Extraction**: 
-   Extract data from Telegram using the script:
-      ```bash
-      python Teletest.py
-      ```
-      This script extracts the chat data, cleans, and transforms it to be saved into a CSV file.
-   
-   2. **Kafka Streaming**:
-      - Start the Kafka producer using:
-        ```bash
-        jupyter notebook producer.ipynb
-        ```
-      - Start the Kafka consumer using:
-        ```bash
-        jupyter notebook consumer.ipynb
-        ```
-        The consumer uploads the data into an S3 bucket.
+### Usage
+1. **Data Extraction**: 
+Extract data from Telegram using the script:
+   ```bash
+   python Teletest.py
+   ```
+   This script extracts the chat data, cleans, and transforms it to be saved into a CSV file.
 
-   3. Follow the AWS Glue and Athena documentation to analyze the data, as detailed in Darshil's tutorial.
-```
+2. **Kafka Streaming**:
+   - Start the Kafka producer using:
+     ```bash
+     jupyter notebook producer.ipynb
+     ```
+   - Start the Kafka consumer using:
+     ```bash
+     jupyter notebook consumer.ipynb
+     ```
+     The consumer uploads the data into an S3 bucket.
+
+3. Follow the AWS Glue and Athena documentation to analyze the data, as detailed in Darshil's tutorial.
 
 ### Technologies Used
 - **Telegram API**: For extracting chat data from the "US F1 VISA experiences" group.

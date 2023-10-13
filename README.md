@@ -13,11 +13,11 @@ This project revolves around analyzing chats from the "US F1 VISA experiences" g
 #### Setup
 1. Clone the repository:
    ```bash
-   git clone [repository-link]
+   git clone https://github.com/snehitvaddi/UniTrends
    ```
 2. Navigate to the project directory:
    ```bash
-   cd [project-directory]
+   cd UniTrends
    ```
 3. Follow individual setup guides for:
    - Setting up Kafka
